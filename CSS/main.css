@@ -1,8 +1,8 @@
-@import url("https://cdn.jhttps://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bokor&display=swap");
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -10,13 +10,12 @@
 html, body {
     font-family: 'Parkinsans', 'Ubuntu', sans-serif;
     font-optical-sizing: auto;
-    background-color: black;
+    background-color: #000000;
 }
 
-body{
-
-    overflow-y: hidden;
-    overflow-x: scroll;
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .navbar {
@@ -74,6 +73,6 @@ a.nav-link.active {
     }
 
     100% {
-        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
