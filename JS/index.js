@@ -20,7 +20,7 @@ async function banner() {
         let active = i == 0 ? 'active' : '';
         carousel.innerHTML += 
             `<div class="carousel-item ${active}" data-bs-interval="10000">
-                <a href='detalhes.html?id=${trendings[i].id}&media=${trendings[i.media_type]}'>
+                <a href='detalhes.html?id=${trendings[i].id}&media=${trendings[i].media_type}'>
                     <img src="https://image.tmdb.org/t/p/original/${trendings[i].backdrop_path}" class="d-block w-100" alt="">
                     <div class="carousel-caption d-md-block">
                         <h3>${trendings[i].title ?? trendings[i].name}</h3>
